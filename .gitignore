@@ -1,0 +1,11 @@
+*.class
+Chapter3/*.class
+Chapter4/*.class
+Chapter6/*.class
+Chapter7/*.class
+Chapter3/.gitignore
+Chapter3/README.md
+Chapter4/.gitignore
+Chapter4/README.md
+Chapter6/README.md
+Chapter7/README.md
