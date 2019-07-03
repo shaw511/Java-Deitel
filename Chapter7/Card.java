@@ -1,4 +1,4 @@
-public class Card{
+epublic class Card{
 	private final String value; //the class card has attributes of value and suit to identify the card
 	private final String suit;
 

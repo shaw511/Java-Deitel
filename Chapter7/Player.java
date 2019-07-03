@@ -2,14 +2,10 @@ import java.util.Scanner;
 
 public class Player{
 	private Card[] hand = new Card[2];
-	private final String id;
+	private int balance = 1000;
 
 	public Player(String id){ //simple constructor to set the name of the player
 		this.id = id;
-	}
-	
-	public String getId(){ //method to return the name of the player, also this is to allow there to be different players as otherwise they would all be the same and difficult to identify
-		return id;
 	}
 	public void turn(){ //stuff needs to go here pertaining to what the player does during their turn
 

@@ -16,6 +16,9 @@ public class Poker{
 			}catch(NumberFormatException e){
 				System.out.println("That was an invalid input, please try again");
 			}
+			if(playerNumber>9 || playerNumber < 1){
+				System.out.println("That was an invalid input, please try again");
+			}	
 		}
 
 
@@ -37,3 +40,6 @@ public class Poker{
 		System.out.printf("And the river is a %s%n%nThe table is now %s%s%s%s%s%n%nYour hand is %s%s",tableCards[4],tableCards[0],tableCards[1],tableCards[2],tableCards[3],tableCards[4],hand[0],hand[1]);
 	}
 }
+
+
+//I am going to scrap this idea because it requires more than I initially thought, as poker is a multiplayer game I have become increasingly unsure how to handle multiple players if at all. I also just want to move on with the rest of the book.
