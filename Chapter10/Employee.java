@@ -27,15 +27,13 @@ public abstract class Employee{
 	public void setSocialSecurityNumber(int socialSecurityNumber){
 		this.socialSecurityNumber = socialSecurityNumber;
 	}
-	
+
 	@Override
 	public String toString(){
 		return String.format("%s %s%nSocial Security Number:%d%n",getFirstName(),getLastName(),getSocialSecurityNumber());
 	}
 
-	public abstract double earnings(){
-
-	}
+	public abstract double earnings();
 
 
 }

@@ -1,17 +1,17 @@
 public class BasePlusCommissionEmployee extends CommissionEmployee{
 	private double baseSalary;
 
-	public BasePlusCommissionEmployee(String firstName, String lastName, int socialSecurityNumber, double commissionRate, double grossSales){
+	public BasePlusCommissionEmployee(String firstName, String lastName, int socialSecurityNumber, double commissionRate, double grossSales, double baseSalary){
 		super(firstName,lastName,socialSecurityNumber,commissionRate,grossSales);
-		this.grossSales = grossSales;
+		this.baseSalary = baseSalary;
 	}
 
 	public double getBaseSalary(){
 		return baseSalary;
 	}
 
-	public void setBaseSalary(){
-		return baseSalary;
+	public void setBaseSalary(double baseSalary){
+		this.baseSalary = baseSalary;
 	}
 
 	@Override
